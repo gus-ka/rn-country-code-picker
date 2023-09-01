@@ -1,4 +1,4 @@
-import { StyleProp, TextStyle, ViewStyle } from 'react-native';
+import { StyleProp, TextStyle, ViewStyle } from "react-native";
 
 export interface ICountry {
   name: string;
@@ -53,6 +53,10 @@ export interface ICallingCodePickerProps {
    * Visibility of flag component
    */
   isFlagVisible?: boolean;
+  /**
+   * customize data list of country list
+   */
+  customList?: string[];
 }
 
 export interface IFlagProps {
